@@ -110,7 +110,6 @@ class User{
             }
             
         }
-
     }
 
    static getUsersStorage(){
@@ -169,5 +168,6 @@ class User{
         return HttpRequest.delete(`/users/${this.id}`);
 
     }
+
 
 }
